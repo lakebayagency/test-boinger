@@ -13,6 +13,7 @@ coverHeight: 9
 excerpt: This post shows you how syntax highlighting works here.
 ---
 
+
 mdsvex has automatic, built-in syntax highlighting with [Prism.js](https://prismjs.com/); just include the language name after the triple backticks, like so:
 
 ```
@@ -61,5 +62,7 @@ Of course, mdsvex supports Svelte highlighting, too:
 	<MyComponent prop={myProp}>
 </div>
 ```
+
+<slot name="boinger-here"></slot>
 
 All these colors are in the `_prism.scss` file inside `src/lib/assets/scss`, if you'd like to change them.

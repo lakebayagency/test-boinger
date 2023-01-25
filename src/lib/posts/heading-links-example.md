@@ -10,12 +10,18 @@ coverWidth: 16
 coverHeight: 9
 excerpt: Check out how heading links work with this starter in this post.
 ---
+<script>
+  import Boinger from '$lib/components/Boinger.svelte'
+</script>
 
 Here are some headings:
 
 ## Here's an h2
 
 Lorem ipsum dolor sit amet
+
+Here's a boinger that is "flattened" (no styles or script, just the html)
+<Boinger/>
 
 ### This is an h3
 
